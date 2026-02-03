@@ -1,0 +1,41 @@
+-Text Preprocessing
+
+Text preprocessing is a crucial step before any NLP project. It improves text quality, reduces noise, and ensures better model performance.
+
+- Cleaning Phase
+
+In this phase, we clean the text by removing words or symbols that carry little or no meaningful information:
+
+1- Stop Words Removal
+
+Stop Words are very common words like the, is, and, in that usually do not add semantic value.
+Removing them helps to:
+
+Reduce text size
+
+Improve model efficiency
+
+Focus on meaningful words
+
+2- Frequent Words Removal
+
+Frequent Words are words that appear very often even after stop words removal.
+These words can dominate the text and reduce the impact of informative words.
+Removing them helps to:
+
+Reduce noise
+
+Avoid model bias toward common words
+
+Highlight important information
+
+3- Rare Words Removal
+
+Rare Words are words that appear only once or twice in the entire corpus.
+These words often:
+
+Increase sparsity
+
+Expand the vocabulary unnecessarily
+
+Add noise instead of useful information
